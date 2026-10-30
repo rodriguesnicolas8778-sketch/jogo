@@ -75,4 +75,6 @@ def main():
         print(evento)
 
 if __name__ == "__main__":
-    main()
+    # Abre a interface gráfica. Para jogar no terminal, troque por: main()
+    from interface import JogoHercules
+    JogoHercules().mainloop()
